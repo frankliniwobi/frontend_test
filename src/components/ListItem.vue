@@ -7,10 +7,8 @@ defineProps({
   }
 })
 
-const defaultClasses =
-  'font-sans font-medium text-lg leading-6 tracking-tighter text-center text-dull'
-const activeClasses =
-  'font-sans font-semibold text-lg leading-6 tracking-tighter text-center text-white'
+const defaultClasses = 'font-sans font-medium text-sm md:text-lg text-center text-dull'
+const activeClasses = 'font-sans font-semibold text-sm md:text-lg text-center text-white'
 </script>
 
 <template>

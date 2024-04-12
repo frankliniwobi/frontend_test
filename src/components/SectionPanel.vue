@@ -1,5 +1,5 @@
 <template>
-  <div v-motion-roll-visible-right>
+  <div v-motion-slide-visible-once-bottom>
     <slot></slot>
   </div>
 </template>

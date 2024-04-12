@@ -10,7 +10,7 @@ import CatImageTwo from './images/CatImageTwo.vue'
     <div class="p-0 m-0 mt-3">
       <div class="text-center flex justify-center gap-4 items-center">
         <h1
-          class="font-sans inline-flex font-bold text-4xl sm:text-7xl lg:text-8xl leading-1 md:leading-2 text-white"
+          class="font-sans inline-flex font-bold text-3xl sm:text-6xl lg:text-8xl leading-1 md:leading-2 text-white"
         >
           We are Pet.
         </h1>

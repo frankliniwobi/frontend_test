@@ -39,7 +39,7 @@ import ListItem from '@/components/ListItem.vue'
         </svg>
       </span>
 
-      <ul class="gap-3 pl-5 items-center hidden md:inline-flex">
+      <ul class="gap-3 pl-5 items-center hidden lg:inline-flex">
         <ListItem text="About Us" :active="true" />
         <ListItem text="Services" />
         <ListItem text="Doctors" />
@@ -49,21 +49,21 @@ import ListItem from '@/components/ListItem.vue'
       </ul>
     </div>
 
-    <div class="gap-2 hidden md:inline-flex">
+    <div class="gap-2 hidden lg:inline-flex">
       <button
-        class="text-white px-8 py-3 gap-10 font-semibold rounded-full border border-1 border-white"
+        class="text-white px-4 py-2 md:px-8 md:py-3 font-semibold rounded-full border border-1 border-white"
       >
         Questionaire
       </button>
 
       <button
-        class="text-primary bg-white font-bold px-8 py-3 gap-10 rounded-full border border-1 border-white"
+        class="text-primary bg-white font-bold px-4 py-2 md:px-8 md:py-3 rounded-full border border-1 border-white"
       >
         Free Call
       </button>
     </div>
 
-    <button class="md:hidden text-lg text-white font-bold">
+    <button class="lg:hidden text-lg text-white font-bold">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
