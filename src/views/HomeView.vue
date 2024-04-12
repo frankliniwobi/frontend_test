@@ -1,7 +1,9 @@
 <script setup>
-import HeaderComponent from '@/components/HeaderComponent.vue'
+import HeaderSection from '@/components/HeaderSection.vue'
+import HeroSection from '@/components/HeroSection.vue'
 </script>
 
 <template>
-  <HeaderComponent />
+  <HeaderSection />
+  <HeroSection />
 </template>
