@@ -1,3 +1,7 @@
-<script setup></script>
+<script setup>
+import HeaderComponent from '@/components/HeaderComponent.vue'
+</script>
 
-<template></template>
+<template>
+  <HeaderComponent />
+</template>
